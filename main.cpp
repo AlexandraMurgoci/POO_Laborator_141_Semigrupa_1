@@ -11,7 +11,8 @@ int main() {
     //lab 6: Bunicuta
     BunicutaTest bunicutaTest;
 //    bunicutaTest.TestAfisare();
-    bunicutaTest.TestPointeri();
+//    bunicutaTest.TestPointeri();
+    bunicutaTest.TestCantitateTotalGem();
 
     return 0;
 }

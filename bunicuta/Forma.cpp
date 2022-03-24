@@ -7,3 +7,11 @@
 void Forma::Afisare() {
     cout << "Forma: " << inaltime;
 }
+
+double Forma::Volum() {
+    return inaltime * AriaBazei();
+}
+
+double Forma::CantitateGem() {
+    return 2 * Volum();
+}

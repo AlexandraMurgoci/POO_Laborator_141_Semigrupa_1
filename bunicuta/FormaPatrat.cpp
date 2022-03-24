@@ -7,3 +7,7 @@
 void FormaPatrat::Afisare() {
     cout << "FormaPatrat: inaltime " << inaltime << " latura " << latura;
 }
+
+double FormaPatrat::AriaBazei() {
+    return latura * latura;
+}
