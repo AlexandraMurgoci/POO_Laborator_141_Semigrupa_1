@@ -46,6 +46,7 @@ public:
 //        //de ce este util?
 ////        Forma* toateFormele = new Forma[100];
 ////        https://en.cppreference.com/w/cpp/container/vector
+// //       sau https://www.cplusplus.com/reference/vector/vector/
 ////        vector<Forma*> toateFormeleVector;
 //    }
 
