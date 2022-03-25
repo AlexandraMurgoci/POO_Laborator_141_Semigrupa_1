@@ -8,6 +8,8 @@
 #include <iostream>
 #include "Forma.h"
 #include "FormaPatrat.h"
+#include "FormaDreptunghi.h"
+#include "FormaCerc.h"
 #include <vector>
 
 using namespace std;
@@ -51,7 +53,6 @@ public:
 //    }
 
     void TestCantitateTotalGem() {
-        int numarForme = 2;
         vector<Forma*> toateFormele;
 
         Forma *forma = new FormaPatrat(2,5);
@@ -59,9 +60,13 @@ public:
         forma = new FormaPatrat(1,10);
         toateFormele.push_back(forma);
 
+        forma = new FormaDreptunghi(5, 2, 3);
+        toateFormele.push_back(forma);
 
+        forma = new FormaCerc(3,4);
+        toateFormele.push_back(forma);
         double suma = 0;
-        for(int i=0; i<numarForme; i++) {
+        for(int i=0; i<toateFormele.size(); i++) {
             suma+=toateFormele[i]->CantitateGem();
         }
         cout<<suma;
